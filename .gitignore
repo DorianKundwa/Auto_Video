@@ -1,0 +1,30 @@
+node_modules/
+dist/
+out/
+.vite/
+coverage/
+
+# Local secrets
+.env
+.env.local
+.env.*.local
+settings.json
+
+# Generated job output (the sample job is kept)
+jobs/*
+!jobs/.gitkeep
+!jobs/sample-soft3d/
+!jobs/sample-soft3d/**
+
+# Runtime logs
+logs/
+*.log
+
+# Remotion / render temp
+render/out/
+*.tmp
+*.part
+
+# OS noise
+.DS_Store
+Thumbs.db
