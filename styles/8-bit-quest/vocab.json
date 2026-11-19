@@ -1,0 +1,57 @@
+{
+  "cameraTypes": [
+    "static",
+    "push-in"
+  ],
+  "cameraMoves": [
+    "pixel-pan",
+    "step-push",
+    "static-push"
+  ],
+  "easings": [
+    "step-hold",
+    "linear",
+    "ease-out"
+  ],
+  "poses": [
+    "idle",
+    "walk",
+    "talk",
+    "react",
+    "point",
+    "shrug"
+  ],
+  "expressions": [
+    "neutral",
+    "happy",
+    "concerned",
+    "surprised",
+    "smirk",
+    "sad"
+  ],
+  "transitions": [
+    "cut",
+    "pixel-wipe"
+  ],
+  "lightingPresets": [
+    "flat-tiles",
+    "cave-glow"
+  ],
+  "actions": [
+    "enter",
+    "exit",
+    "gesture",
+    "lean-in",
+    "pace",
+    "look-at-camera",
+    "sit",
+    "hold-prop",
+    "hop"
+  ],
+  "sfxCues": [
+    "beep",
+    "coin",
+    "blip",
+    "click"
+  ]
+}

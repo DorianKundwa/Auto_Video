@@ -1,0 +1,48 @@
+{
+  "id": "chalk-doodle",
+  "name": "Chalk Doodle",
+  "description": "Chalkboard world with stroke-reveal line art, chalk dust and hand-lettered subtitles.",
+  "palette": {
+    "background": "#23342B",
+    "surface": "#2C4034",
+    "primary": "#A8D5BA",
+    "secondary": "#D9C27A",
+    "accent": "#F2D06B",
+    "text": "#F4F1E4",
+    "outline": "#F4F1E4"
+  },
+  "fonts": {
+    "heading": "\"Comic Sans MS\", \"Chalkboard SE\", cursive",
+    "body": "\"Comic Sans MS\", \"Chalkboard SE\", cursive",
+    "subtitle": "\"Comic Sans MS\", \"Chalkboard SE\", cursive"
+  },
+  "outline": {
+    "color": "#F4F1E4",
+    "widthPx": 6,
+    "style": "chalk"
+  },
+  "grain": {
+    "enabled": true,
+    "intensity": 0.18
+  },
+  "post": {
+    "bloom": 0.08,
+    "bloomRadius": 8,
+    "vignette": 0.3,
+    "grain": 0.18,
+    "outline": 6,
+    "dof": false,
+    "chalkDust": true,
+    "strokeReveal": true
+  },
+  "subtitle": {
+    "style": "hand",
+    "safeAreaPct": 0.12,
+    "karaokeHighlight": true
+  },
+  "render": {
+    "fps": 30,
+    "letterbox": false,
+    "dof": false
+  }
+}

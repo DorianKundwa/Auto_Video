@@ -1,0 +1,70 @@
+{
+  "cameraTypes": [
+    "static",
+    "push-in",
+    "pull-out",
+    "pan",
+    "tilt",
+    "orbit",
+    "tracking",
+    "handheld"
+  ],
+  "cameraMoves": [
+    "stop-motion-push",
+    "brick-orbit",
+    "step-pan",
+    "rise"
+  ],
+  "easings": [
+    "step-hold",
+    "ease-out",
+    "linear"
+  ],
+  "poses": [
+    "idle",
+    "walk",
+    "talk",
+    "react",
+    "point",
+    "shrug"
+  ],
+  "expressions": [
+    "neutral",
+    "happy",
+    "concerned",
+    "surprised",
+    "smirk",
+    "sad"
+  ],
+  "transitions": [
+    "cut",
+    "brick-wipe",
+    "snap-cut"
+  ],
+  "lightingPresets": [
+    "warm-key",
+    "cool-rim",
+    "high-noon",
+    "rain-window",
+    "neon-rim",
+    "soft-top",
+    "studio-softbox"
+  ],
+  "actions": [
+    "enter",
+    "exit",
+    "gesture",
+    "lean-in",
+    "pace",
+    "look-at-camera",
+    "sit",
+    "hold-prop",
+    "stomp",
+    "build"
+  ],
+  "sfxCues": [
+    "brick-clack",
+    "click",
+    "thud"
+  ]
+}

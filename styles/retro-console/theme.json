@@ -1,0 +1,50 @@
+{
+  "id": "retro-console",
+  "name": "Retro Console",
+  "description": "CRT scanlines, chromatic aberration, 4:3 framing and a terminal UI aesthetic.",
+  "palette": {
+    "background": "#05060A",
+    "surface": "#16202A",
+    "primary": "#45E0C6",
+    "secondary": "#7CF7A0",
+    "accent": "#FF6FA5",
+    "text": "#B9FFDA",
+    "outline": "#45E0C6"
+  },
+  "fonts": {
+    "heading": "\"Cascadia Mono\", \"Consolas\", monospace",
+    "body": "\"Cascadia Mono\", \"Consolas\", monospace",
+    "subtitle": "\"Cascadia Mono\", \"Consolas\", monospace"
+  },
+  "outline": {
+    "color": "#45E0C6",
+    "widthPx": 2,
+    "style": "neon"
+  },
+  "grain": {
+    "enabled": true,
+    "intensity": 0.1
+  },
+  "post": {
+    "bloom": 0.4,
+    "bloomRadius": 12,
+    "vignette": 0.5,
+    "grain": 0.1,
+    "outline": 2,
+    "dof": false,
+    "scanlines": 0.35,
+    "chromaticAberration": 0.4,
+    "crtCurve": 0.12,
+    "letterbox43": true
+  },
+  "subtitle": {
+    "style": "terminal",
+    "safeAreaPct": 0.1,
+    "karaokeHighlight": false
+  },
+  "render": {
+    "fps": 30,
+    "letterbox": true,
+    "dof": false
+  }
+}

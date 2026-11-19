@@ -1,0 +1,49 @@
+{
+  "id": "soft-3d",
+  "name": "Soft 3D",
+  "description": "Rounded clay characters, soft shadows, shallow depth of field and warm window light.",
+  "palette": {
+    "background": "#F3E7DA",
+    "surface": "#E8D8C6",
+    "primary": "#B5613A",
+    "secondary": "#5E8C7C",
+    "accent": "#D9A13B",
+    "text": "#2E2620",
+    "outline": "#3A2F28"
+  },
+  "fonts": {
+    "heading": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+    "body": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+    "subtitle": "\"Trebuchet MS\", \"Segoe UI\", sans-serif"
+  },
+  "outline": {
+    "color": "#3A2F28",
+    "widthPx": 8,
+    "style": "ink"
+  },
+  "grain": {
+    "enabled": true,
+    "intensity": 0.05
+  },
+  "post": {
+    "bloom": 0.16,
+    "bloomRadius": 14,
+    "vignette": 0.2,
+    "grain": 0.05,
+    "outline": 8,
+    "dof": true,
+    "ambientOcclusion": true,
+    "saturate": 1.04,
+    "particle": "rain"
+  },
+  "subtitle": {
+    "style": "clean",
+    "safeAreaPct": 0.12,
+    "karaokeHighlight": true
+  },
+  "render": {
+    "fps": 30,
+    "letterbox": false,
+    "dof": true
+  }
+}

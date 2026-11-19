@@ -1,0 +1,47 @@
+{
+  "id": "flat-poster",
+  "name": "Flat Poster",
+  "description": "Flat vector shapes, a limited palette, bold typography and slide/scale motion.",
+  "palette": {
+    "background": "#F4EDE4",
+    "surface": "#E7DCCB",
+    "primary": "#D94837",
+    "secondary": "#2C6E9B",
+    "accent": "#F2B134",
+    "text": "#1B2430",
+    "outline": "#1B2430"
+  },
+  "fonts": {
+    "heading": "\"Arial Black\", \"Helvetica Neue\", sans-serif",
+    "body": "\"Helvetica Neue\", \"Segoe UI\", sans-serif",
+    "subtitle": "\"Arial Black\", \"Helvetica Neue\", sans-serif"
+  },
+  "outline": {
+    "color": "#1B2430",
+    "widthPx": 4,
+    "style": "ink"
+  },
+  "grain": {
+    "enabled": false,
+    "intensity": 0
+  },
+  "post": {
+    "bloom": 0,
+    "vignette": 0,
+    "grain": 0,
+    "outline": 4,
+    "dof": false,
+    "flatShading": true,
+    "saturate": 1.02
+  },
+  "subtitle": {
+    "style": "poster",
+    "safeAreaPct": 0.12,
+    "karaokeHighlight": false
+  },
+  "render": {
+    "fps": 30,
+    "letterbox": false,
+    "dof": false
+  }
+}

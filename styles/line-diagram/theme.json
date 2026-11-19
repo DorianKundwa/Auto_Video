@@ -1,0 +1,48 @@
+{
+  "id": "line-diagram",
+  "name": "Line Diagram",
+  "description": "Blueprint line art with animated labels, arrows and measured callouts for explainers.",
+  "palette": {
+    "background": "#0B2545",
+    "surface": "#123258",
+    "primary": "#6FA8FF",
+    "secondary": "#8FE3C0",
+    "accent": "#FFD166",
+    "text": "#E9F1FA",
+    "outline": "#E9F1FA"
+  },
+  "fonts": {
+    "heading": "\"Segoe UI\", \"Helvetica Neue\", sans-serif",
+    "body": "\"Segoe UI\", \"Helvetica Neue\", sans-serif",
+    "subtitle": "\"Segoe UI\", \"Helvetica Neue\", sans-serif"
+  },
+  "outline": {
+    "color": "#E9F1FA",
+    "widthPx": 2,
+    "style": "ink"
+  },
+  "grain": {
+    "enabled": false,
+    "intensity": 0
+  },
+  "post": {
+    "bloom": 0.12,
+    "bloomRadius": 8,
+    "vignette": 0.22,
+    "grain": 0,
+    "outline": 2,
+    "dof": false,
+    "gridOverlay": 0.14,
+    "strokeReveal": true
+  },
+  "subtitle": {
+    "style": "blueprint",
+    "safeAreaPct": 0.12,
+    "karaokeHighlight": false
+  },
+  "render": {
+    "fps": 30,
+    "letterbox": false,
+    "dof": false
+  }
+}

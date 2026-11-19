@@ -1,0 +1,48 @@
+{
+  "id": "pop-comic",
+  "name": "Pop Comic",
+  "description": "Halftone dots, thick ink outlines, comic panels and onomatopoeia pops.",
+  "palette": {
+    "background": "#FFF8E7",
+    "surface": "#FFEFC9",
+    "primary": "#E63946",
+    "secondary": "#F4A261",
+    "accent": "#2A9D8F",
+    "text": "#16130F",
+    "outline": "#100D0A"
+  },
+  "fonts": {
+    "heading": "\"Impact\", \"Haettenschweiler\", \"Arial Black\", sans-serif",
+    "body": "\"Arial\", \"Helvetica Neue\", sans-serif",
+    "subtitle": "\"Impact\", \"Haettenschweiler\", \"Arial Black\", sans-serif"
+  },
+  "outline": {
+    "color": "#100D0A",
+    "widthPx": 12,
+    "style": "ink"
+  },
+  "grain": {
+    "enabled": true,
+    "intensity": 0.04
+  },
+  "post": {
+    "bloom": 0,
+    "vignette": 0.08,
+    "grain": 0.04,
+    "outline": 12,
+    "dof": false,
+    "halftone": 0.35,
+    "panelEdges": 10,
+    "saturate": 1.15
+  },
+  "subtitle": {
+    "style": "comic",
+    "safeAreaPct": 0.12,
+    "karaokeHighlight": true
+  },
+  "render": {
+    "fps": 30,
+    "letterbox": false,
+    "dof": false
+  }
+}

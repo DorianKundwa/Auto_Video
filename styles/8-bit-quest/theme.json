@@ -1,0 +1,49 @@
+{
+  "id": "8-bit-quest",
+  "name": "8-Bit Quest",
+  "description": "Pixel art at low internal resolution, nearest-neighbour upscaling and dialogue boxes.",
+  "palette": {
+    "background": "#10121F",
+    "surface": "#1A1D2E",
+    "primary": "#58C470",
+    "secondary": "#6A8CFF",
+    "accent": "#F2C14E",
+    "text": "#E8F1FF",
+    "outline": "#8896C8"
+  },
+  "fonts": {
+    "heading": "\"Consolas\", \"Courier New\", monospace",
+    "body": "\"Consolas\", \"Courier New\", monospace",
+    "subtitle": "\"Consolas\", \"Courier New\", monospace"
+  },
+  "outline": {
+    "color": "#8896C8",
+    "widthPx": 4,
+    "style": "ink"
+  },
+  "grain": {
+    "enabled": false,
+    "intensity": 0
+  },
+  "post": {
+    "bloom": 0.1,
+    "bloomRadius": 4,
+    "vignette": 0.2,
+    "grain": 0,
+    "outline": 4,
+    "dof": false,
+    "pixelate": 0.25,
+    "nearestNeighbour": true
+  },
+  "subtitle": {
+    "style": "pixel",
+    "safeAreaPct": 0.14,
+    "karaokeHighlight": false
+  },
+  "render": {
+    "fps": 30,
+    "letterbox": false,
+    "dof": false,
+    "internalScale": 0.25
+  }
+}

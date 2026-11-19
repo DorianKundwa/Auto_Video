@@ -1,0 +1,50 @@
+{
+  "id": "cinematic-3d",
+  "name": "Cinematic 3D",
+  "description": "Stylized low-poly 3D, volumetric shafts, slow dolly moves, film grain and letterbox.",
+  "palette": {
+    "background": "#0B0F14",
+    "surface": "#161E27",
+    "primary": "#7FB3C8",
+    "secondary": "#C9A26B",
+    "accent": "#E2543F",
+    "text": "#F2F4F7",
+    "outline": "#9FB4C7"
+  },
+  "fonts": {
+    "heading": "\"Georgia\", \"Times New Roman\", serif",
+    "body": "\"Segoe UI\", \"Helvetica Neue\", sans-serif",
+    "subtitle": "\"Georgia\", \"Times New Roman\", serif"
+  },
+  "outline": {
+    "color": "#9FB4C7",
+    "widthPx": 3,
+    "style": "ink"
+  },
+  "grain": {
+    "enabled": true,
+    "intensity": 0.12
+  },
+  "post": {
+    "bloom": 0.22,
+    "bloomRadius": 22,
+    "vignette": 0.38,
+    "grain": 0.12,
+    "outline": 3,
+    "dof": true,
+    "volumetric": true,
+    "letterbox": 0.1,
+    "saturate": 0.95,
+    "contrast": 1.12
+  },
+  "subtitle": {
+    "style": "cinematic",
+    "safeAreaPct": 0.1,
+    "karaokeHighlight": false
+  },
+  "render": {
+    "fps": 30,
+    "letterbox": true,
+    "dof": true
+  }
+}

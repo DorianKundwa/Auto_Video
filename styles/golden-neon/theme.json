@@ -1,0 +1,48 @@
+{
+  "id": "golden-neon",
+  "name": "Golden Neon",
+  "description": "Dark scene, glowing gold outlines, bloom and light trails. Night-city energy.",
+  "palette": {
+    "background": "#07070B",
+    "surface": "#111018",
+    "primary": "#FFC940",
+    "secondary": "#FF8A3D",
+    "accent": "#FF5F9E",
+    "text": "#FFF3C4",
+    "outline": "#FFD166"
+  },
+  "fonts": {
+    "heading": "\"Bahnschrift\", \"Segoe UI\", sans-serif",
+    "body": "\"Bahnschrift\", \"Segoe UI\", sans-serif",
+    "subtitle": "\"Bahnschrift\", \"Segoe UI\", sans-serif"
+  },
+  "outline": {
+    "color": "#FFD166",
+    "widthPx": 5,
+    "style": "neon"
+  },
+  "grain": {
+    "enabled": true,
+    "intensity": 0.09
+  },
+  "post": {
+    "bloom": 0.62,
+    "bloomRadius": 26,
+    "vignette": 0.45,
+    "grain": 0.09,
+    "outline": 5,
+    "dof": true,
+    "lightTrails": true,
+    "chromaticAberration": 0.12
+  },
+  "subtitle": {
+    "style": "karaoke",
+    "safeAreaPct": 0.12,
+    "karaokeHighlight": true
+  },
+  "render": {
+    "fps": 30,
+    "letterbox": false,
+    "dof": true
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "cameraTypes": [
+    "static",
+    "push-in",
+    "pull-out",
+    "pan",
+    "tilt",
+    "orbit",
+    "tracking",
+    "handheld"
+  ],
+  "cameraMoves": [
+    "slow-dolly",
+    "crash-zoom",
+    "parallax-slide",
+    "rise",
+    "fall",
+    "whip-pan",
+    "dutch-tilt",
+    "rack-focus",
+    "crane-up",
+    "dolly-zoom"
+  ],
+  "easings": [
+    "linear",
+    "ease-in",
+    "ease-out",
+    "ease-in-out",
+    "spring-soft",
+    "step-hold"
+  ],
+  "poses": [
+    "idle",
+    "walk",
+    "talk",
+    "react",
+    "point",
+    "shrug"
+  ],
+  "expressions": [
+    "neutral",
+    "happy",
+    "concerned",
+    "surprised",
+    "smirk",
+    "sad"
+  ],
+  "transitions": [
+    "cut",
+    "cross-fade",
+    "whip-pan",
+    "dip-to-black",
+    "iris",
+    "film-dissolve",
+    "letterbox-wipe"
+  ],
+  "lightingPresets": [
+    "warm-key",
+    "cool-rim",
+    "high-noon",
+    "rain-window",
+    "neon-rim",
+    "soft-top",
+    "volumetric-shaft",
+    "backlit-dusk"
+  ],
+  "actions": [
+    "enter",
+    "exit",
+    "gesture",
+    "lean-in",
+    "pace",
+    "look-at-camera",
+    "sit",
+    "hold-prop"
+  ],
+  "sfxCues": [
+    "whoosh",
+    "pop",
+    "rain-loop",
+    "click",
+    "thud",
+    "chime",
+    "low-rumble"
+  ]
+}

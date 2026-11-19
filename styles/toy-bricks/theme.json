@@ -1,0 +1,48 @@
+{
+  "id": "toy-bricks",
+  "name": "Toy Bricks",
+  "description": "Blocky voxel characters, studded surfaces and stop-motion step timing.",
+  "palette": {
+    "background": "#F0F4F8",
+    "surface": "#DDE6EF",
+    "primary": "#D63A2F",
+    "secondary": "#E0A21F",
+    "accent": "#2A7DE1",
+    "text": "#2B2B33",
+    "outline": "#1F1F26"
+  },
+  "fonts": {
+    "heading": "\"Verdana\", \"Segoe UI\", sans-serif",
+    "body": "\"Verdana\", \"Segoe UI\", sans-serif",
+    "subtitle": "\"Verdana\", \"Segoe UI\", sans-serif"
+  },
+  "outline": {
+    "color": "#1F1F26",
+    "widthPx": 7,
+    "style": "ink"
+  },
+  "grain": {
+    "enabled": false,
+    "intensity": 0
+  },
+  "post": {
+    "bloom": 0,
+    "vignette": 0.14,
+    "grain": 0,
+    "outline": 7,
+    "dof": false,
+    "studs": true,
+    "stepTiming": 6,
+    "saturate": 1.05
+  },
+  "subtitle": {
+    "style": "blocky",
+    "safeAreaPct": 0.12,
+    "karaokeHighlight": true
+  },
+  "render": {
+    "fps": 24,
+    "letterbox": false,
+    "dof": false
+  }
+}
